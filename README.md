@@ -27,6 +27,8 @@ $nonceCreateOop = $WP_Nonce_OOP -> wp_create_nonce_oop();
 
 For example:
 
+```php
 <a href='myplugin.php?do_something=some_action&_wpnonce=<?php echo $nonceCreateOop; ?>'>Do some action</a>
+```
 
 
