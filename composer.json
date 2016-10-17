@@ -12,8 +12,6 @@
     "phpunit/phpunit": "~4.5"
   },
   "autoload": {
-    "classmap": [
-      "src/class-wp-nonce-oop.php"
-    ]
+    "psr-4": {"Pavlushenko\\": "src/"}
   }
 }
