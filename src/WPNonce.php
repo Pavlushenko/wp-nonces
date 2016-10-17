@@ -4,7 +4,7 @@
  * Class used to work with WordPress Nonces in an object orientated environment.
  */
 
-class WP_Nonce_OOP {
+class WPNonce {
 
     /**
      * Display "Are you sure you want to do this?" message to confirm the action being taken.
