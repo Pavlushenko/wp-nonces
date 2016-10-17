@@ -1,0 +1,19 @@
+{
+  "name": "Pavlushenko/wp-nonces",
+  "description": "a composer package which serves the functionality working with WordPress Nonces in an object orientated environment",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Anjela Pavlushenko",
+      "email": "anjela_pavlushenko@mail.ru"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "~4.5"
+  },
+  "autoload": {
+    "classmap": [
+      "src/class-wp-nonce-oop.php"
+    ]
+  }
+}
