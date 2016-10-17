@@ -3,6 +3,7 @@
 /**
  * Class used to work with WordPress Nonces in an object orientated environment.
  */
+namespace Pavlushenko;
 
 class WPNonce {
 
